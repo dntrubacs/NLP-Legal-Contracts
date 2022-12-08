@@ -52,7 +52,7 @@ def calculate_tf_idf(word: str, sentence: list, document: list) -> float:
     Args:
         word: string, must be lowercase
         sentence: list of strings, all should be lowercase.
-        document: list of sentences
+        document: list of sentences from a document corpus
 
     Returns:
         float number between 0 and 1, representing the product between tf (term frequency) and idf
