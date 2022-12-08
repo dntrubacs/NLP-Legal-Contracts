@@ -77,7 +77,7 @@ def calculate_tf_idf(word: str, sentence: list, document: list) -> float:
 # the type of data to be read (train or validation)
 data_type = 'train'
 
-# save the data in json format
+# load the data in json format
 with open(data_type + '_data.json', 'r') as json_file:
     data = json.load(json_file)
     print("The data has been loaded from", data_type + '_data.json')
