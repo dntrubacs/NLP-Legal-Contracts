@@ -67,7 +67,7 @@ def calculate_tf_idf(word: str, sentence: list, document: list) -> float:
     for k in range(len(document)):
         if word in document[k]:
             n_sentences += 1
-    # use 1 in the log to avoid division by 0
+    # the inverse document frequency value
     idf = np.log(len(document) / n_sentences)
 
     # return the tf-idf of the word
