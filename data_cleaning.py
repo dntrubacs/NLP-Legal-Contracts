@@ -1,6 +1,7 @@
 """Created by Daniel-Iosif Trubacs for the AI society on 6 December 2022. The aim of this module is to clean the
 CortAI dataset. The CortAI contains classified clauses separated by rows into a txt file. The cleaned data is saved
-into the json format: {'text_data', 'label'}. More information about the labelled data can be found here: """
+into the json format: {'text_data', 'label'}. More information about the labelled data can be found here: 
+https://www.corticai.com/post/machine-learning-nlp-applications-contract-clauses-legal-review """
 
 import re
 import json
